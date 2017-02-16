@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="0x7f0d0371" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="20dp" android:textColor="#fedf9e" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="43dp" android:text="0x7f070184" android:singleLine="true" />
+        <ImageView android:id="0x7f0d0372" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:src="0x7f0300f8" />
+        <TextView android:textSize="20dp" android:textColor="#464646" android:gravity="1" android:id="0x7f0d0373" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:text="0x7f070185" android:singleLine="true" />
+        <RelativeLayout android:id="0x7f0d0374" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginStart="32dp" android:layout_marginEnd="32dp">
+            <ImageView android:layout_width="-1" android:layout_height="52dp" android:src="0x7f0300e3" android:scaleType="1" />
+            <Button android:id="0x7f0d0103" android:background="@sqlitedatabase/OPEN_READWRITE" android:layout_width="-1" android:layout_height="52dp" android:layout_marginEnd="75dp" />
+            <TextView android:textSize="17dp" android:textColor="#5c5c5c" android:gravity="10" android:layout_width="-1" android:layout_height="52dp" android:text="0x7f07017c" android:singleLine="true" android:layout_marginStart="23dp" android:layout_marginEnd="75dp" />
+            <ImageButton android:id="0x7f0d0104" android:background="0x7f0200e6" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="0x7f0d0375" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="17dp" android:layout_marginStart="32dp" android:layout_marginEnd="32dp">
+            <ImageView android:layout_width="-1" android:layout_height="52dp" android:src="0x7f0300e3" android:scaleType="1" />
+            <EditText android:textSize="17dp" android:textColor="#fedf9e" android:textColorHint="#5c5c5c" android:gravity="10" android:id="0x7f0d0376" android:background="@sqlitedatabase/OPEN_READWRITE" android:layout_width="-1" android:layout_height="52dp" android:hint="0x7f070183" android:singleLine="true" android:maxLength="10" android:inputType="2" android:imeOptions="3" android:textCursorDrawable="@sqlitedatabase/OPEN_READWRITE" android:layout_marginStart="23dp" android:layout_marginEnd="75dp" />
+            <ImageButton android:id="0x7f0d0105" android:background="0x7f0200f2" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

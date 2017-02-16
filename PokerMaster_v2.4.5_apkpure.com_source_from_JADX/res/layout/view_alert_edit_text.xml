@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <EditText android:id="0x7f0d0267" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:singleLine="true" />
+</RelativeLayout>

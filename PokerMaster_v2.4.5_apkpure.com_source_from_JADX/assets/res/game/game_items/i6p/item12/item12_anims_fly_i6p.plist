@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>item12_fly_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,5},{106,164}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,167}</string>
+			</dict>
+			<key>item12_fly_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,179},{67,129}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,167}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>item12_anims_fly_i6p.png</string>
+			<key>realTextureFileName</key>
+			<string>item12_anims_fly_i6p.png</string>
+			<key>size</key>
+			<string>{256,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chatroom_moments_clear_str">
+        <item>@string/chatroom_moments_clear_str</item>
+    </string-array>
+    <string-array name="common_del_alert">
+        <item>@string/common_del_str</item>
+    </string-array>
+    <string-array name="debug_pay_alert">
+        <item>google</item>
+        <item>wechat</item>
+    </string-array>
+    <string-array name="open_chat_other_alert">
+        <item>@string/common_del_str</item>
+    </string-array>
+    <string-array name="open_chat_text_alert">
+        <item>@string/common_copy_str</item>
+        <item>@string/common_del_str</item>
+    </string-array>
+    <string-array name="open_group_head_alert">
+        <item>@string/common_take_photo_str</item>
+        <item>@string/common_choose_photo_str</item>
+        <item>@string/common_open_big_photo_str</item>
+    </string-array>
+    <string-array name="open_photo_alert">
+        <item>@string/common_take_photo_str</item>
+        <item>@string/common_choose_photo_str</item>
+    </string-array>
+    <string-array name="open_photo_del_alert">
+        <item>@string/common_del_str</item>
+        <item>@string/common_take_photo_str</item>
+        <item>@string/common_choose_photo_str</item>
+        <item>@string/common_open_big_photo_str</item>
+    </string-array>
+    <string-array name="phonen_number_click_alert">
+        <item>@string/phonenumber_action_call_str</item>
+        <item>@string/common_copy_str</item>
+        <item>@string/phonenumber_action_add_str</item>
+    </string-array>
+    <string-array name="phonen_number_edit_alert">
+        <item>@string/phonenumber_action_create_str</item>
+        <item>@string/phonenumber_action_edit_str</item>
+    </string-array>
+    <string-array name="poker_history_alert_str">
+        <item>@string/common_share_str</item>
+        <item>@string/common_del_str</item>
+    </string-array>
+    <string-array name="rangeMarkArray">
+        <item>@string/range_mark_1</item>
+        <item>@string/range_mark_2</item>
+        <item>@string/range_mark_3</item>
+        <item>@string/range_mark_4</item>
+        <item>@string/range_mark_5</item>
+    </string-array>
+</resources>

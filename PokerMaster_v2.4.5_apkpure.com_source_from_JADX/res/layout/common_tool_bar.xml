@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <android.support.v7.widget.Toolbar android:id="0x7f0d0171" android:background="?unknown_attr_ref: 7f01007e" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" android:minHeight="?unknown_attr_ref: 7f010041" />
+</FrameLayout>

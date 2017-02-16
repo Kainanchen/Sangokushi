@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="#282828" android:layout_width="-1" android:layout_height="-1">
+        <include android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" layout="0x7f04006a" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ScrollView android:layout_width="-1" android:layout_height="-1">
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:background="#1c1c1c" android:layout_width="-1" android:layout_height="90dp"
+                        <RelativeLayout android:id="0x7f0d01b5" android:layout_width="62dp" android:layout_height="80dp" android:layout_marginTop="10dp" android:layout_marginStart="17dp"
+                            <RelativeLayout android:layout_width="42dp" android:layout_height="42dp" android:layout_marginTop="10dp" android:layout_centerHorizontal="true">
+                                <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d01b6" fresco:layout_width="42dp" fresco:layout_height="42dp" fresco:layout_centerHorizontal="true" fresco:layout_centerVertical="true" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="21dp" />
+                                <Button fresco:id="0x7f0d01b7" fresco:background="0x106000d" fresco:layout_width="-1" fresco:layout_height="-1" />
+                            </RelativeLayout>
+                            <TextView fresco:textSize="11dp" fresco:textColor="#fedf9e" fresco:ellipsize="2" fresco:gravity="11" fresco:id="0x7f0d01b8" fresco:layout_width="-1" fresco:layout_height="-2" fresco:layout_marginTop="57dp" fresco:lines="1" fresco:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout fresco:layout_width="-1" fresco:layout_height="62dp">
+                        <TextView fresco:textSize="18dp" fresco:textColor="#a2a2a2" fresco:id="0x7f0d00f9" fresco:layout_width="-2" fresco:layout_height="-2" fresco:text="0x7f070068" fresco:layout_centerVertical="true" fresco:layout_marginStart="22dp" fresco:layout_alignParentStart="true" />
+                        <Switch fresco:id="0x7f0d00fa" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_centerVertical="true" fresco:layout_marginEnd="20dp" fresco:layout_alignParentEnd="true" />
+                        <View fresco:background="#343434" fresco:layout_width="-1" fresco:layout_height="1dp" fresco:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                    <RelativeLayout fresco:layout_width="-1" fresco:layout_height="62dp">
+                        <ImageButton fresco:id="0x7f0d00fb" fresco:background="0x7f02009c" fresco:layout_width="-1" fresco:layout_height="-1" />
+                        <TextView fresco:textSize="18dp" fresco:textColor="#a2a2a2" fresco:id="0x7f0d00fc" fresco:layout_width="-2" fresco:layout_height="-2" fresco:text="0x7f070050" fresco:layout_centerVertical="true" fresco:layout_marginStart="22dp" fresco:layout_alignParentStart="true" />
+                        <View fresco:background="#343434" fresco:layout_width="-1" fresco:layout_height="1dp" fresco:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

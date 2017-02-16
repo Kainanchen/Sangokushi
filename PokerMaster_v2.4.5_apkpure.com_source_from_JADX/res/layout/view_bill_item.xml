@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="97dp">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:layout_width="62dp" android:layout_height="-2">
+                <TextView android:textSize="18dp" android:textColor="#fedf9e" android:gravity="11" android:id="0x7f0d0280" android:layout_width="62dp" android:layout_height="-2" android:layout_marginTop="18dp" />
+                <TextView android:textSize="14dp" android:textColor="#fedf9e" android:gravity="11" android:id="0x7f0d0281" android:layout_width="62dp" android:layout_height="-2" android:layout_marginTop="1dp" />
+            </LinearLayout>
+            <View android:background="#484848" android:layout_width="1dp" android:layout_height="-1" android:layout_marginStart="62dp" />
+            <ImageView android:id="0x7f0d0282" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18dp" android:src="0x7f0301f3" android:layout_marginStart="56dp" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="18dp" android:layout_marginStart="15dp" android:layout_marginEnd="10dp"
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:id="0x7f0d0283" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="14dp" android:textColor="#676767" android:ellipsize="3" android:id="0x7f0d0284" android:layout_width="-2" android:layout_height="-2" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="20dp" />
+                <TextView android:textSize="14dp" android:textColor="#918450" android:ellipsize="3" android:id="0x7f0d0285" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+                <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d0112" fresco:layout_width="32dp" fresco:layout_height="32dp" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="16dp" fresco:roundingBorderWidth="1dp" fresco:roundingBorderColor="0x106000b" />
+                <RelativeLayout fresco:layout_width="-1" fresco:layout_height="-2" fresco:layout_marginStart="7dp"
+                    <RelativeLayout fresco:id="0x7f0d0274" fresco:layout_width="-1" fresco:layout_height="-2" fresco:layout_toStartOf="0x7f0d0286">
+                        <LinearLayout fresco:gravity="10" fresco:orientation="0" fresco:layout_width="-2" fresco:layout_height="-2">
+                            <TextView fresco:textSize="14dp" fresco:textColor="#9f9e9e" fresco:ellipsize="3" fresco:id="0x7f0d01ba" fresco:layout_width="-2" fresco:layout_height="-2" fresco:lines="1" fresco:layout_weight="1.0" />
+                            <ImageView fresco:id="0x7f0d0287" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f030157" fresco:layout_marginStart="3dp" />
+                            <ImageView fresco:id="0x7f0d0288" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f03000a" fresco:layout_marginStart="3dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout fresco:id="0x7f0d0286" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_alignParentEnd="true">
+                        <ImageView fresco:id="0x7f0d0289" fresco:layout_width="-2" fresco:layout_height="-2" fresco:scaleType="1" fresco:adjustViewBounds="false" fresco:layout_alignTop="0x7f0d028a" fresco:layout_alignBottom="0x7f0d028a" fresco:layout_alignStart="0x7f0d028a" fresco:layout_alignEnd="0x7f0d028a" />
+                        <TextView fresco:textSize="14dp" fresco:textColor="0x106000b" fresco:gravity="11" fresco:id="0x7f0d028a" fresco:layout_width="-2" fresco:layout_height="28dp" fresco:layout_centerVertical="true" fresco:paddingStart="7dp" fresco:paddingEnd="7dp" fresco:layout_marginEnd="10dp" />
+                    </RelativeLayout>
+                    <LinearLayout fresco:gravity="10" fresco:orientation="0" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="2dp" fresco:layout_below="0x7f0d0274">
+                        <TextView fresco:textSize="14dp" fresco:textColor="#9f9e9e" fresco:id="0x7f0d028b" fresco:layout_width="-2" fresco:layout_height="-2" fresco:drawableStart="0x7f0300da" />
+                        <TextView fresco:textSize="14dp" fresco:textColor="#9f9e9e" fresco:gravity="10" fresco:id="0x7f0d028c" fresco:layout_width="-2" fresco:layout_height="-2" fresco:drawableStart="0x7f0300f6" fresco:layout_marginStart="20dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

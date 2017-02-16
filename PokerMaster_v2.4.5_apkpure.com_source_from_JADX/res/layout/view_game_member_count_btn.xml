@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="0x7f0d0322" android:background="0x7f0200fc" android:layout_width="-2" android:layout_height="-2">
+        <RelativeLayout android:id="0x7f0d0323" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="0x7f0d0324" android:background="0x106000d" android:layout_width="36dp" android:layout_height="24dp" />
+            <ImageView android:id="0x7f0d0325" android:visibility="1" android:layout_width="36dp" android:layout_height="24dp" android:src="0x7f0200fd" />
+            <ImageView android:id="0x7f0d0326" android:layout_width="-2" android:layout_height="-2" android:src="0x7f030128" />
+        </RelativeLayout>
+        <RelativeLayout android:id="0x7f0d0327" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="0x7f0d0328" android:background="0x106000d" android:layout_width="36dp" android:layout_height="24dp" />
+            <ImageView android:id="0x7f0d0329" android:visibility="1" android:layout_width="36dp" android:layout_height="24dp" android:src="0x7f0200fd" />
+            <ImageView android:id="0x7f0d032a" android:layout_width="-2" android:layout_height="-2" android:src="0x7f03012a" />
+        </RelativeLayout>
+        <RelativeLayout android:id="0x7f0d032b" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="0x7f0d032c" android:background="0x106000d" android:layout_width="36dp" android:layout_height="24dp" />
+            <ImageView android:id="0x7f0d032d" android:layout_width="36dp" android:layout_height="24dp" android:src="0x7f0200fd" />
+            <ImageView android:id="0x7f0d032e" android:layout_width="-2" android:layout_height="-2" android:src="0x7f03012b" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

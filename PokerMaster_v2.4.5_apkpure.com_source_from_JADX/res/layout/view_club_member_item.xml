@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:layout_width="50dp" android:layout_height="42dp">
+        <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d02df" fresco:layout_width="42dp" fresco:layout_height="42dp" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="21dp" />
+        <ImageView fresco:id="0x7f0d02e1" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f03007b" fresco:layout_alignBottom="0x7f0d02df" fresco:layout_alignEnd="0x7f0d02df" />
+    </RelativeLayout>
+</RelativeLayout>

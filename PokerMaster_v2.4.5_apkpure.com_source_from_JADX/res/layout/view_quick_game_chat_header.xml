@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:id="0x7f0d03b0" android:visibility="0" android:layout_width="-1" android:layout_height="180dp"
+        <RelativeLayout android:layout_width="-1" android:layout_height="180dp">
+            <ImageView android:layout_width="-1" android:layout_height="-1" android:src="0x7f030015" android:scaleType="6" android:adjustViewBounds="true" />
+            <include layout="0x7f0400c5" />
+            <com.illuminate.texaspoker.view.HorizontalListView widget:id="0x7f0d03b1" widget:clickable="false" widget:layout_width="-1" widget:layout_height="33dp" widget:layout_marginLeft="2dp" widget:layout_marginRight="2dp" widget:layout_marginBottom="7dp" widget:listSelector="0x106000d" widget:divider="0x106000d" widget:layout_alignParentBottom="true" widget:dividerWidth="0dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

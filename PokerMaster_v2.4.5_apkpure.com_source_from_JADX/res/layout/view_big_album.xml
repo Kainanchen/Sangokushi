@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2">
+    <LinearLayout android:layout_gravity="50" android:orientation="0" android:layout_width="-1" android:layout_height="700dp">
+        <com.facebook.drawee.view.SimpleDraweeView fresco:layout_gravity="50" fresco:id="0x7f0d0265" fresco:layout_width="-1" fresco:layout_height="-1" fresco:layout_alignParentBottom="true" fresco:placeholderImage="0x7f030084" fresco:placeholderImageScaleType="6" fresco:actualImageScaleType="6" />
+    </LinearLayout>
+</RelativeLayout>

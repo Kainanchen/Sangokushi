@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="240500" android:versionName="2.4.5" android:installLocation="auto" package="com.illuminate.texaspoker" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="24" />
+    <uses-feature android:glEsVersion="20000" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <application android:label="0x7f07002e" android:icon="0x7f030156" android:name="com.illuminate.texaspoker.application.BaseApplication" android:allowBackup="false" android:largeHeap="true">
+        <meta-data android:name="android.app.lib_name" android:value="cocos2dlua" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="0x7f070311" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="f17a82a99d841dc79b205e6a2b68bd68" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar.TranslucentDecor" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.SplashActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:alwaysRetainTaskState="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@r/Theme_AppCompat_NoActionBar" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.GuideActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f0900da" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.LoginActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070225" android:name="com.illuminate.texaspoker.activity.RegisterActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07021d" android:name="com.illuminate.texaspoker.activity.VerifyActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070227" android:name="com.illuminate.texaspoker.activity.ForgetPassActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07021d" android:name="com.illuminate.texaspoker.activity.ResetPassActivity" android:screenOrientation="portrait" android:windowSoftInputMode="20" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070217" android:name="com.illuminate.texaspoker.activity.CompleteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0900d3" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.BigImageActivity" android:screenOrientation="portrait" android:noHistory="true" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07021c" android:name="com.illuminate.texaspoker.activity.ImportFriendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.WebActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.WebPopupActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f0900db" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.MainActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="20" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.activity.EmptyActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070245" android:name="com.illuminate.texaspoker.activity.MyFriendActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070155" android:name="com.illuminate.texaspoker.activity.AddFriendActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07015f" android:name="com.illuminate.texaspoker.activity.PhoneBookResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07015c" android:name="com.illuminate.texaspoker.activity.FacebookResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07012d" android:name="com.illuminate.texaspoker.activity.FriendSearchResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07016a" android:name="com.illuminate.texaspoker.activity.SendInviteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="12" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070161" android:name="com.illuminate.texaspoker.activity.NewFriendActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07025f" android:name="com.illuminate.texaspoker.activity.SettingsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070263" android:name="com.illuminate.texaspoker.activity.StoreActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702e8" android:name="com.illuminate.texaspoker.activity.RechargeActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702e8" android:name="com.illuminate.texaspoker.activity.RechargeForGoogleActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.ChatRoomActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="13" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.QuickChatRoomActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="13" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07003a" android:name="com.illuminate.texaspoker.activity.BillShareActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070289" android:name="com.illuminate.texaspoker.activity.PokerHistoryShareActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07028a" android:name="com.illuminate.texaspoker.activity.PokerHistoryListActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702b5" android:name="com.illuminate.texaspoker.activity.GamePokerHistoryListActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07027e" android:name="com.illuminate.texaspoker.activity.PlayPokerHistoryActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0701ee" android:name="com.illuminate.texaspoker.activity.CreateGameActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f0900d7" android:label="0x7f07002e" android:name="org.cocos2dx.lua.AppActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection" />
+        <service android:label="0x7f07002e" android:name="com.illuminate.texaspoker.service.FakeForegroundService" />
+        <service android:label="0x7f07002e" android:name="com.illuminate.texaspoker.service.ForegroundService" />
+        <receiver android:name="com.illuminate.texaspoker.receiver.ConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.illuminate.texaspoker.receiver.BootupReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.illuminate.texaspoker.receiver.LocalChangeReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="0x7f09003f" android:label="0x7f07024a" android:name="com.illuminate.texaspoker.activity.MyGroupActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07023c" android:name="com.illuminate.texaspoker.activity.MyClubActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070097" android:name="com.illuminate.texaspoker.activity.NewClubActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070245" android:name="com.illuminate.texaspoker.activity.NewGroupActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070127" android:name="com.illuminate.texaspoker.activity.CreateClubCountrySelectActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070127" android:name="com.illuminate.texaspoker.activity.CreateClubStateSelectActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070127" android:name="com.illuminate.texaspoker.activity.CreateClubCitySelectActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070127" android:name="com.illuminate.texaspoker.activity.ClubStateSelectActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700af" android:name="com.illuminate.texaspoker.activity.ClubSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="20" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07012d" android:name="com.illuminate.texaspoker.activity.ClubSearchResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.ClubBaseInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700ed" android:name="com.illuminate.texaspoker.activity.SendEnterClubActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700d4" android:name="com.illuminate.texaspoker.activity.ClubMessageActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.ClubInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.ClubUserManagerActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070085" android:name="com.illuminate.texaspoker.activity.ClubAddLimitActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700a8" android:name="com.illuminate.texaspoker.activity.ClubFundActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700a6" android:name="com.illuminate.texaspoker.activity.ClubFundUserActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700de" android:name="com.illuminate.texaspoker.activity.SendFundActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070090" android:name="com.illuminate.texaspoker.activity.ClubChargeFundActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700e9" android:name="com.illuminate.texaspoker.activity.ClubSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.GroupSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070062" android:name="com.illuminate.texaspoker.activity.EditGroupNameActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070079" android:name="com.illuminate.texaspoker.activity.SingleSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07016f" android:name="com.illuminate.texaspoker.activity.FriendInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070165" android:name="com.illuminate.texaspoker.activity.EditRemarkActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07016f" android:name="com.illuminate.texaspoker.activity.FriendClubActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702ae" android:name="com.illuminate.texaspoker.activity.FriendRecordActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07024e" android:name="com.illuminate.texaspoker.activity.EditMeActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07023b" android:name="com.illuminate.texaspoker.activity.EditMeNameActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702aa" android:name="com.illuminate.texaspoker.activity.ClubRecordActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702aa" android:name="com.illuminate.texaspoker.activity.ClubBillActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.BillActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.BillSngActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.BillRecordActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070256" android:name="com.illuminate.texaspoker.activity.FeedbackActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702f1" android:name="com.illuminate.texaspoker.activity.SystemMsgActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702ec" android:name="com.illuminate.texaspoker.activity.SystemMsgBenefitActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070041" android:name="com.illuminate.texaspoker.activity.BuyInMsgActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0702de" android:name="com.illuminate.texaspoker.activity.SngDetailActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f07025e" android:name="com.illuminate.texaspoker.activity.SwitchLanguageActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700c1" android:name="com.illuminate.texaspoker.activity.ClubLeagueListActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f070099" android:name="com.illuminate.texaspoker.activity.CreateLeagueActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700b3" android:name="com.illuminate.texaspoker.activity.JoinLeagueActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:name="com.illuminate.texaspoker.activity.LeagueInfoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f09003f" android:label="0x7f0700ac" android:name="com.illuminate.texaspoker.activity.InsuranceDetailActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="0x7f07002e" android:name="com.illuminate.texaspoker.wxapi.WXPayEntryActivity" android:exported="true" />
+        <service android:name="com.amap.api.location.APSService" />
+        <activity android:theme="@r/com_facebook_activity_theme" android:label="0x7f07002e" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvider1580401885585347" />
+        <receiver android:name="com.tencent.android.tpush.XGPushReceiver" android:process=":xg_service_v2">
+            <intent-filter android:priority="7fffffff">
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.illuminate.texaspoker.receiver.TransXgPushReceiver">
+            <intent-filter>
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.tencent.android.tpush.XGPushActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.tencent.android.tpush.service.XGPushService" android:persistent="true" android:exported="true" android:process=":xg_service_v2" />
+        <service android:name="com.tencent.android.tpush.rpc.XGRemoteService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.illuminate.texaspoker.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="XG_V2_ACCESS_ID" android:value="2100203730" />
+        <meta-data android:name="XG_V2_ACCESS_KEY" android:value="A4W1IL422TKE" />
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+    </application>
+</manifest>

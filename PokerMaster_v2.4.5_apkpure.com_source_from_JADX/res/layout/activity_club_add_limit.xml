@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="#1c1c1c" android:layout_width="-1" android:layout_height="-1">
+        <include android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" layout="0x7f04006a" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <RelativeLayout android:background="#343434" android:layout_width="-1" android:layout_height="70dp">
+                <ImageView android:id="0x7f0d0092" android:layout_width="-2" android:layout_height="-2" android:src="0x7f03006b" android:layout_centerVertical="true" android:layout_marginStart="18dp" />
+                <TextView android:textSize="14dp" android:textColor="#6e6e6e" android:id="0x7f0d0093" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:layout_centerVertical="true" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:layout_toEndOf="0x7f0d0092" />
+            </RelativeLayout>
+            <RelativeLayout android:background="#282828" android:layout_width="-1" android:layout_height="63dp">
+                <TextView android:textSize="18dp" android:textColor="#a2a2a2" android:id="0x7f0d0094" android:layout_width="-2" android:layout_height="-2" android:text="0x7f07007f" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+                <ImageButton android:id="0x7f0d00c1" android:background="0x7f02006f" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginEnd="42dp" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="18dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d00c2" android:layout_width="40dp" android:layout_height="-2" android:text="1" android:layout_centerVertical="true" android:layout_toStartOf="0x7f0d00c1" />
+                <ImageButton android:id="0x7f0d00c3" android:background="0x7f020077" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_toStartOf="0x7f0d00c2" />
+                <View android:background="#343434" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="#282828" android:layout_width="-1" android:layout_height="63dp">
+                <TextView android:textSize="18dp" android:textColor="#a2a2a2" android:id="0x7f0d0098" android:layout_width="-2" android:layout_height="-2" android:text="0x7f07007e" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+                <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginEnd="48dp" android:layout_alignParentEnd="true">
+                    <TextView android:textSize="18dp" android:textColor="0x106000b" android:id="0x7f0d00c4" android:layout_width="-2" android:layout_height="-2" android:text="40" android:layout_centerVertical="true" />
+                    <ImageView android:id="0x7f0d00c5" android:layout_width="-2" android:layout_height="-2" android:src="0x7f03006a" android:layout_centerVertical="true" android:layout_toEndOf="0x7f0d00c4" />
+                    <ImageView android:id="0x7f0d009a" android:layout_width="-2" android:layout_height="-2" android:src="0x7f030069" android:layout_centerVertical="true" android:layout_toEndOf="0x7f0d00c5" />
+                    <TextView android:textSize="18dp" android:textColor="0x106000b" android:id="0x7f0d00c6" android:layout_width="-2" android:layout_height="-2" android:text="60" android:layout_centerVertical="true" android:layout_toEndOf="0x7f0d009a" />
+                    <ImageView android:id="0x7f0d00c7" android:layout_width="-2" android:layout_height="-2" android:src="0x7f03006a" android:layout_centerVertical="true" android:layout_toEndOf="0x7f0d00c6" />
+                </RelativeLayout>
+                <View android:background="#343434" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="#282828" android:layout_width="-1" android:layout_height="63dp">
+                <TextView android:textSize="18dp" android:textColor="#a2a2a2" android:id="0x7f0d009c" android:layout_width="-2" android:layout_height="-2" android:text="0x7f070084" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+                <TextView android:textSize="12dp" android:textColor="0x106000b" android:id="0x7f0d009d" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:layout_below="0x7f0d009c" android:layout_marginStart="20dp" android:layout_marginEnd="48dp" />
+                <TextView android:textSize="18dp" android:textColor="0x106000b" android:id="0x7f0d009e" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginEnd="48dp" android:layout_alignParentEnd="true" />
+                <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f03017f" android:layout_centerVertical="true" android:layout_toStartOf="0x7f0d009e" />
+                <View android:background="#343434" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <Button android:textSize="20dp" android:textColor="0x106000c" android:id="0x7f0d00c8" android:background="0x7f0200ca" android:layout_width="-1" android:layout_height="47dp" android:layout_marginTop="18dp" android:scaleType="1" android:text="0x7f070081" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

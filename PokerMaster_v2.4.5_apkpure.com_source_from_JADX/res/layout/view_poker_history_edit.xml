@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:layout_width="368dp" android:layout_height="273dp" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="1" android:background="0x7f030090" android:padding="0dp" android:layout_width="346dp" android:layout_height="253dp" android:layout_centerInParent="true">
+            <TextView android:textSize="19dp" android:textColor="#5c5c5c" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp" android:text="0x7f070281" />
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="37dp" android:layout_marginTop="18dp" android:layout_marginRight="37dp">
+                <ImageView android:layout_width="-1" android:layout_height="50dp" android:src="0x7f03009c" android:scaleType="1" />
+                <EditText android:textSize="19dp" android:textColor="#5c5c5c" android:textColorHint="#616161" android:id="0x7f0d013b" android:background="@sqlitedatabase/OPEN_READWRITE" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:hint="0x7f07027f" android:singleLine="true" android:maxLength="24" android:imeOptions="6" android:textCursorDrawable="@sqlitedatabase/OPEN_READWRITE" />
+            </RelativeLayout>
+            <CheckBox android:enabled="true" android:textSize="17dp" android:textColor="0x7f0b008e" android:id="0x7f0d03a5" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="37dp" android:layout_marginTop="6dp" android:checked="false" android:button="0x7f020097" android:text="0x7f070272" />
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="18dp">
+                <Button android:enabled="false" android:textSize="17dp" android:textColor="0x7f0b0093" android:id="0x7f0d03a6" android:background="0x7f020096" android:layout_width="97dp" android:layout_height="33dp" android:scaleType="1" android:text="0x7f0700fe" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageButton android:id="0x7f0d03a7" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020098" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

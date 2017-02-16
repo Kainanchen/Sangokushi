@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="#282828" android:layout_width="-1" android:layout_height="-1">
+        <include android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" layout="0x7f04006a" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ScrollView android:layout_width="-1" android:layout_height="-1">
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="36dp" android:layout_marginRight="36dp">
+                    <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="22dp" android:text="0x7f0702d4" />
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp">
+                        <TextView android:textSize="36dp" android:textColor="#fedf9e" android:id="0x7f0d007c" android:layout_width="-2" android:layout_height="-2" />
+                        <TextView android:textSize="11dp" android:textColor="#9f9e9e" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="0x7f0702d3" android:layout_toRightOf="0x7f0d007c" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp">
+                        <com.illuminate.texaspoker.view.RecordWinProgress android:id="0x7f0d007d" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="5dp" />
+                        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f030201" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+                        <TextView android:textSize="28dp" android:textColor="#f8a54c" android:id="0x7f0d007e" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" />
+                        <TextView android:textSize="28dp" android:textColor="#fedf9e" android:id="0x7f0d007f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="57dp"
+                        <RelativeLayout android:layout_width="120dp" android:layout_height="120dp">
+                            <com.illuminate.texaspoker.view.RecordRingProgress android:id="0x7f0d0080" android:layout_width="120dp" android:layout_height="120dp" />
+                            <TextView android:textSize="20dp" android:textColor="#fedf9e" android:id="0x7f0d0081" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_centerInParent="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702ac" android:layout_above="0x7f0d0081" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="20dp" android:textColor="#f8a54c" android:id="0x7f0d0082" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702ad" android:layout_above="0x7f0d0082" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="120dp" android:layout_height="120dp" android:layout_alignParentRight="true">
+                            <com.illuminate.texaspoker.view.RecordRingProgress android:id="0x7f0d0083" android:layout_width="120dp" android:layout_height="120dp" />
+                            <TextView android:textSize="20dp" android:textColor="#fedf9e" android:id="0x7f0d0084" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_centerInParent="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702cf" android:layout_above="0x7f0d0084" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="20dp" android:textColor="#f8a54c" android:id="0x7f0d0085" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702d0" android:layout_above="0x7f0d0085" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp"
+                        <RelativeLayout android:layout_width="120dp" android:layout_height="120dp">
+                            <com.illuminate.texaspoker.view.RecordRingProgress android:id="0x7f0d0086" android:layout_width="120dp" android:layout_height="120dp" />
+                            <TextView android:textSize="20dp" android:textColor="#fedf9e" android:id="0x7f0d0087" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_centerInParent="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702c0" android:layout_above="0x7f0d0087" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="20dp" android:textColor="#f8a54c" android:id="0x7f0d0088" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702c1" android:layout_above="0x7f0d0088" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="120dp" android:layout_height="120dp" android:layout_alignParentRight="true">
+                            <com.illuminate.texaspoker.view.RecordRingProgress android:id="0x7f0d0089" android:layout_width="120dp" android:layout_height="120dp" />
+                            <TextView android:textSize="20dp" android:textColor="#fedf9e" android:id="0x7f0d008a" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_centerInParent="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702c4" android:layout_above="0x7f0d008a" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="20dp" android:textColor="#f8a54c" android:id="0x7f0d008b" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="14dp" android:textColor="#9f9e9e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="0x7f0702c5" android:layout_above="0x7f0d008b" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

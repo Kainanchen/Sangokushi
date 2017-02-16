@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:id="0x7f0d02be" android:paddingTop="10dp" android:paddingBottom="14dp" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d0112" fresco:layout_width="45dp" fresco:layout_height="45dp" fresco:layout_marginLeft="10dp" fresco:layout_alignParentLeft="true" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="22.5dp" />
+        <Button fresco:id="0x7f0d00db" fresco:background="0x106000d" fresco:layout_width="45dp" fresco:layout_height="45dp" fresco:layout_marginLeft="10dp" fresco:layout_alignParentLeft="true" />
+        <TextView fresco:textSize="17dp" fresco:textColor="#787878" fresco:id="0x7f0d01b8" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginLeft="14dp" fresco:layout_toRightOf="0x7f0d0112" fresco:layout_alignParentTop="true" />
+        <RelativeLayout fresco:id="0x7f0d02ab" fresco:layout_width="-1" fresco:layout_height="51dp" fresco:layout_marginLeft="14dp" fresco:layout_marginTop="3dp" fresco:layout_toRightOf="0x7f0d0112" fresco:layout_below="0x7f0d01b8">
+            <ImageButton fresco:id="0x7f0d02c1" fresco:background="0x7f02005d" fresco:layout_width="-2" fresco:layout_height="51dp" fresco:scaleType="1" fresco:minWidth="70dp" fresco:layout_alignParentLeft="true" fresco:layout_alignParentTop="true" />
+            <ImageView fresco:id="0x7f0d02c2" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginLeft="18dp" fresco:src="0x7f03020d" fresco:layout_alignLeft="0x7f0d02c1" fresco:layout_centerVertical="true" />
+            <ImageView fresco:id="0x7f0d02c3" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginLeft="16dp" fresco:src="0x7f03003f" fresco:layout_toRightOf="0x7f0d02c1" fresco:layout_alignParentTop="true" />
+            <TextView fresco:textSize="14dp" fresco:textColor="#a2a2a2" fresco:id="0x7f0d02c4" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginLeft="14dp" fresco:text="14" fresco:layout_toRightOf="0x7f0d02c1" fresco:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

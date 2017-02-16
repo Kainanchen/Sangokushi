@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:state_checked="false" android:color="#343434" />
+    <item android:state_enabled="true" android:state_checked="false" android:color="#343434" />
+    <item android:state_enabled="true" android:state_checked="true" android:color="#c1ad88" />
+    <item android:state_enabled="false" android:state_checked="true" android:color="#343434" />
+</selector>

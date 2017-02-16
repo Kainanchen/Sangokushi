@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="0x7f0d00a1" android:layout_width="-1" android:layout_height="-1">
+        <include android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" layout="0x7f04006a" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:id="0x7f0d00a2" android:layout_width="-1" android:layout_height="52dp">
+                    <LinearLayout android:orientation="0" android:background="#282626" android:layout_width="-1" android:layout_height="52dp">
+                        <RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                            <Button android:enabled="false" android:id="0x7f0d00a3" android:background="0x106000d" android:layout_width="-1" android:layout_height="-1" />
+                            <TextView android:textSize="17dp" android:textColor="#e4c88f" android:id="0x7f0d00a4" android:layout_width="-2" android:layout_height="-2" android:text="0x7f07004c" android:layout_centerInParent="true" />
+                            <RelativeLayout android:id="0x7f0d00a5" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-10dp" android:layout_alignTop="0x7f0d00a4" android:layout_marginEnd="-12dp" android:layout_alignEnd="0x7f0d00a4">
+                                <ImageView android:layout_width="17dp" android:layout_height="17dp" android:src="0x7f02010a" />
+                                <TextView android:textSize="12dp" android:textColor="0x106000b" android:id="0x7f0d00a6" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <View android:id="0x7f0d00a7" android:background="#e4c88f" android:layout_width="36dp" android:layout_height="4dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                            <Button android:id="0x7f0d00a8" android:background="0x106000d" android:layout_width="-1" android:layout_height="-1" />
+                            <TextView android:textSize="17dp" android:textColor="#737270" android:id="0x7f0d00a9" android:layout_width="-2" android:layout_height="-2" android:text="0x7f07004d" android:layout_centerInParent="true" />
+                            <RelativeLayout android:id="0x7f0d00aa" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-10dp" android:layout_alignTop="0x7f0d00a9" android:layout_marginEnd="-12dp" android:layout_alignEnd="0x7f0d00a9">
+                                <ImageView android:layout_width="17dp" android:layout_height="17dp" android:src="0x7f02010a" />
+                                <TextView android:textSize="12dp" android:textColor="0x106000b" android:id="0x7f0d00ab" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <View android:id="0x7f0d00ac" android:background="#e4c88f" android:visibility="1" android:layout_width="36dp" android:layout_height="4dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <ImageButton android:id="0x7f0d00ad" android:background="0x106000d" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:src="0x7f02005a" android:layout_centerVertical="true" android:layout_marginEnd="-71dp" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="-1" android:layout_height="-1"
+                    <RelativeLayout android:id="0x7f0d00ae" android:layout_width="-1" android:layout_height="-1"
+                        <RelativeLayout android:id="0x7f0d00af" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+                            <ImageView android:id="0x7f0d008d" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="184dp" android:src="0x7f0300d9" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="18dp" android:textColor="#5d5442" android:gravity="11" android:id="0x7f0d008e" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="0x7f07004b" android:layout_below="0x7f0d008d" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="0x7f0d00b0" android:layout_width="-1" android:layout_height="-1">
+                            <com.illuminate.texaspoker.view.refreshlayout.RefreshDefaultLayout android:id="0x7f0d0090" android:layout_width="-1" android:layout_height="-1">
+                                <ListView android:id="0x7f0d00b1" android:layout_width="-1" android:layout_height="-1" android:listSelector="0x7f02009c" android:divider="0x7f0b0019" android:dividerHeight="1dp" />
+                            </com.illuminate.texaspoker.view.refreshlayout.RefreshDefaultLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="0x7f0d00b2" android:layout_width="-1" android:layout_height="-1">
+                        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                            <ListView android:id="0x7f0d00b3" android:background="#ececec" android:layout_width="-1" android:layout_height="0dp" android:divider="0x106000d" android:layout_weight="1.0" />
+                            <RelativeLayout android:id="0x7f0d00b4" android:layout_width="-1" android:layout_height="-2" android:minHeight="50dp">
+                                <include android:id="0x7f0d00b5" layout="0x7f040064" />
+                                <View android:background="#dfdede" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentTop="true" />
+                                <RelativeLayout android:id="0x7f0d00b6" android:background="0x106000b" android:visibility="2" android:layout_width="-1" android:layout_height="210dp" android:layout_below="0x7f0d00b5">
+                                    <GridView android:id="0x7f0d00b7" android:paddingLeft="15dp" android:paddingTop="11dp" android:paddingRight="15dp" android:paddingBottom="11dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="11dp" android:verticalSpacing="7dp" android:numColumns="7" android:layout_centerInParent="true" android:isScrollContainer="false" />
+                                    <LinearLayout android:orientation="1" android:id="0x7f0d00b8" android:visibility="1" android:layout_width="-1" android:layout_height="210dp"
+                                        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+                                            <RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                                                <ImageButton android:id="0x7f0d00b9" android:background="0x7f020069" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+                                            </RelativeLayout>
+                                            <RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                                                <ImageButton android:id="0x7f0d00ba" android:background="0x7f020067" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+                                            </RelativeLayout>
+                                            <RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                                                <ImageButton android:id="0x7f0d00bb" android:background="0x7f020064" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+                                            </RelativeLayout>
+                                            <RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+                                        </LinearLayout>
+                                        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="11dp">
+                                            <TextView android:textSize="17dp" android:textColor="#a2a2a2" android:gravity="11" android:layout_width="0dp" android:layout_height="-2" android:text="0x7f070072" android:layout_weight="1.0" />
+                                            <TextView android:textSize="17dp" android:textColor="#a2a2a2" android:gravity="11" android:layout_width="0dp" android:layout_height="-2" android:text="0x7f070073" android:layout_weight="1.0" />
+                                            <TextView android:textSize="17dp" android:textColor="#a2a2a2" android:gravity="11" android:id="0x7f0d00bc" android:layout_width="0dp" android:layout_height="-2" android:text="0x7f070051" android:layout_weight="1.0" />
+                                            <TextView android:textSize="17dp" android:textColor="#a2a2a2" android:gravity="11" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                    <View android:background="#dfdede" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentTop="true" />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <RelativeLayout android:id="0x7f0d00bd" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"
+                            <RelativeLayout android:id="0x7f0d00be" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+                                <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f030205" />
+                                <ImageView android:id="0x7f0d00bf" android:layout_width="-2" android:layout_height="-2" />
+                            </RelativeLayout>
+                            <RelativeLayout android:id="0x7f0d00c0" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+                                <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f0301f7" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

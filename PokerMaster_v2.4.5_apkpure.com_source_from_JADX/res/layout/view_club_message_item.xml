@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:layout_width="-1" android:layout_height="130dp">
+        <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d0112" fresco:layout_width="46dp" fresco:layout_height="46dp" fresco:layout_marginTop="14dp" fresco:layout_marginStart="10dp" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="23dp" />
+        <TextView fresco:textSize="18dp" fresco:textColor="#e7e7e7" fresco:ellipsize="3" fresco:id="0x7f0d01b8" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="18dp" fresco:lines="1" fresco:layout_marginStart="10dp" fresco:layout_toEndOf="0x7f0d0112" />
+        <TextView fresco:textSize="16dp" fresco:textColor="#989482" fresco:ellipsize="3" fresco:id="0x7f0d02ea" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="10dp" fresco:maxLines="2" fresco:layout_below="0x7f0d01b8" fresco:layout_marginStart="10dp" fresco:layout_marginEnd="10dp" fresco:layout_toEndOf="0x7f0d0112" />
+        <ImageButton fresco:id="0x7f0d02eb" fresco:background="0x106000d" fresco:focusable="false" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f02006e" fresco:layout_alignParentBottom="true" fresco:layout_alignParentEnd="true" />
+        <ImageButton fresco:id="0x7f0d02ec" fresco:background="0x106000d" fresco:focusable="false" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f020078" fresco:layout_alignParentBottom="true" fresco:layout_toStartOf="0x7f0d02eb" />
+        <TextView fresco:textSize="18dp" fresco:textColor="#777676" fresco:id="0x7f0d02ed" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginBottom="10dp" fresco:text="0x7f0700d2" fresco:layout_alignParentBottom="true" fresco:layout_centerHorizontal="true" />
+        <TextView fresco:textSize="12dp" fresco:textColor="#5dabe9" fresco:id="0x7f0d02ee" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="21dp" fresco:layout_marginEnd="28dp" fresco:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

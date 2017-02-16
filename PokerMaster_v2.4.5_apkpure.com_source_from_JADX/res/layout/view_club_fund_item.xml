@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:layout_width="-1" android:layout_height="100dp">
+        <ImageView android:id="0x7f0d0282" android:layout_width="-2" android:layout_height="-2" android:src="0x7f030068" android:layout_marginStart="17dp" />
+        <TextView android:textSize="17dp" android:textColor="#9f9e9e" android:id="0x7f0d0283" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_alignParentTop="true" android:layout_marginStart="9dp" android:layout_toEndOf="0x7f0d0282" />
+        <TextView android:textSize="17dp" android:textColor="#9f9e9e" android:id="0x7f0d0284" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="0x7f0d0283" android:layout_marginStart="17dp" android:layout_toEndOf="0x7f0d0283" />
+        <TextView android:textSize="20dp" android:textColor="#fedf9e" android:id="0x7f0d00f3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginEnd="18dp" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="0x7f0d0286" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_below="0x7f0d0283" android:layout_marginStart="9dp" android:layout_marginEnd="18dp" android:layout_toEndOf="0x7f0d0282">
+            <TextView android:textSize="10dp" android:textColor="#bdbcbc" android:id="0x7f0d00e9" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="0" android:id="0x7f0d00ea" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true" android:layout_toEndOf="0x7f0d00e9" />
+        </RelativeLayout>
+        <RelativeLayout android:id="0x7f0d02db" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_below="0x7f0d0283" android:layout_marginStart="9dp" android:layout_marginEnd="18dp" android:layout_toEndOf="0x7f0d0282">
+            <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d02dc" fresco:layout_width="27dp" fresco:layout_height="27dp" fresco:layout_centerVertical="true" fresco:layout_alignParentStart="true" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="13.5dp" />
+            <LinearLayout fresco:orientation="0" fresco:layout_width="-1" fresco:layout_height="-2" fresco:layout_centerVertical="true" fresco:layout_marginStart="9dp" fresco:layout_toEndOf="0x7f0d02dc">
+                <TextView fresco:textSize="17dp" fresco:textColor="#9f9e9e" fresco:ellipsize="3" fresco:id="0x7f0d02dd" fresco:layout_width="-2" fresco:layout_height="-2" fresco:lines="1" fresco:layout_weight="1.0" />
+                <TextView fresco:textSize="17dp" fresco:textColor="#9f9e9e" fresco:id="0x7f0d02de" fresco:layout_width="-2" fresco:layout_height="-2" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

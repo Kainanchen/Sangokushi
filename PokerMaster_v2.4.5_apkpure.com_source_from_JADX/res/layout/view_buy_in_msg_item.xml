@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="67dp">
+        <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d0112" fresco:layout_width="34dp" fresco:layout_height="34dp" fresco:layout_marginStart="20dp" fresco:placeholderImage="0x7f03009e" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="17dp" />
+        <LinearLayout fresco:orientation="1" fresco:layout_width="0dp" fresco:layout_height="-2" fresco:layout_weight="1.0" fresco:layout_marginStart="15dp">
+            <TextView fresco:textSize="14dp" fresco:textColor="#868583" fresco:ellipsize="3" fresco:id="0x7f0d01b8" fresco:layout_width="-2" fresco:layout_height="-2" fresco:lines="1" />
+            <LinearLayout fresco:orientation="0" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="8dp">
+                <TextView fresco:textSize="12dp" fresco:textColor="#918450" fresco:id="0x7f0d02a5" fresco:layout_width="-2" fresco:layout_height="-2" />
+                <TextView fresco:textSize="12dp" fresco:textColor="#868583" fresco:id="0x7f0d02a6" fresco:layout_width="-2" fresco:layout_height="-2" fresco:drawableStart="0x7f0300df" fresco:layout_marginStart="22dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton fresco:id="0x7f0d02a7" fresco:background="0x106000d" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f020059" fresco:layout_marginEnd="12dp" />
+        <ImageButton fresco:id="0x7f0d02a8" fresco:background="0x106000d" fresco:layout_width="-2" fresco:layout_height="-2" fresco:src="0x7f02005b" fresco:layout_marginEnd="12dp" />
+        <TextView fresco:textSize="11dp" fresco:textColor="#504f4f" fresco:id="0x7f0d02a9" fresco:visibility="2" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginEnd="12dp" />
+    </LinearLayout>
+</RelativeLayout>

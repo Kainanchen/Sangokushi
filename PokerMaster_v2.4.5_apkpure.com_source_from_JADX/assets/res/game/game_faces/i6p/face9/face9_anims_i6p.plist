@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>face9_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{91,88},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,5},{73,76}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{91,5},{73,76}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{175,91},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,171},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{177,5},{73,76}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{89,171},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{173,174},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,88},{73,76}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>face9_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,254},{73,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>face9_anims_i6p-i6p.png</string>
+			<key>realTextureFileName</key>
+			<string>face9_anims_i6p-i6p.png</string>
+			<key>size</key>
+			<string>{255,332}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>255</integer>
+			<key>height</key>
+			<integer>332</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <include android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010041" layout="0x7f04006a" />
+        <ScrollView android:id="@r/scrollView" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="1" android:id="0x7f0d010d" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2"
+                <RelativeLayout android:id="0x7f0d010e" android:background="#151515" android:layout_width="-1" android:layout_height="186dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+                    <RelativeLayout android:orientation="1" android:id="0x7f0d010f" android:layout_width="-1" android:layout_height="-1" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <ImageView android:id="0x7f0d0110" android:layout_width="-2" android:layout_height="-2" android:src="0x7f030083" android:adjustViewBounds="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        <TextView android:textSize="16dp" android:textColor="#343434" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f070269" android:layout_below="0x7f0d0110" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <GridView android:gravity="11" android:id="0x7f0d0111" android:scrollbars="0" android:layout_width="339dp" android:layout_height="183dp" android:layout_margin="10dp" android:listSelector="0x7f020055" android:cacheColorHint="0x106000d" android:horizontalSpacing="9dp" android:verticalSpacing="9dp" android:stretchMode="2" android:columnWidth="78dp" android:numColumns="4" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:isScrollContainer="false" />
+                </RelativeLayout>
+                <TextView android:textSize="18dp" android:textColor="0x106000b" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f070093" android:layout_below="0x7f0d010e" android:layout_marginStart="23dp" android:layout_alignParentStart="true" />
+                <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_below="0x7f0d010e" android:layout_centerHorizontal="true">
+                    <com.facebook.drawee.view.SimpleDraweeView fresco:id="0x7f0d0112" fresco:layout_width="100dp" fresco:layout_height="100dp" fresco:layout_centerInParent="true" fresco:placeholderImage="0x7f03008f" fresco:placeholderImageScaleType="7" fresco:actualImageScaleType="7" fresco:roundedCornerRadius="50dp" />
+                    <ImageView fresco:id="0x7f0d00d4" fresco:layout_width="115dp" fresco:layout_height="115dp" fresco:src="0x7f030076" />
+                    <Button fresco:id="0x7f0d0113" fresco:background="@sqlitedatabase/OPEN_READWRITE" fresco:layout_width="115dp" fresco:layout_height="115dp" />
+                </RelativeLayout>
+                <TextView fresco:textSize="18dp" fresco:textColor="0x106000b" fresco:id="0x7f0d0114" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="149dp" fresco:text="0x7f0700d8" fresco:layout_below="0x7f0d010e" fresco:layout_marginStart="23dp" fresco:layout_alignParentStart="true" />
+                <ImageView fresco:id="0x7f0d0115" fresco:layout_width="-1" fresco:layout_height="50dp" fresco:layout_marginLeft="23dp" fresco:layout_marginTop="10dp" fresco:layout_marginRight="23dp" fresco:src="0x7f03009c" fresco:scaleType="1" fresco:layout_below="0x7f0d0114" fresco:layout_centerHorizontal="true" />
+                <EditText fresco:textSize="18dp" fresco:textColor="#f1dcba" fresco:textColorHint="#5c5c5c" fresco:gravity="10" fresco:id="0x7f0d0116" fresco:background="@sqlitedatabase/OPEN_READWRITE" fresco:layout_width="-1" fresco:layout_height="50dp" fresco:layout_marginLeft="35dp" fresco:layout_marginTop="10dp" fresco:layout_marginRight="35dp" fresco:singleLine="true" fresco:maxLength="20" fresco:layout_below="0x7f0d0114" fresco:layout_centerHorizontal="true" fresco:inputType="1" fresco:imeOptions="5" fresco:textCursorDrawable="@sqlitedatabase/OPEN_READWRITE" />
+                <TextView fresco:textSize="18dp" fresco:textColor="0x106000b" fresco:id="0x7f0d0117" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="27dp" fresco:text="0x7f0700ea" fresco:layout_below="0x7f0d0116" fresco:layout_marginStart="23dp" fresco:layout_alignParentStart="true" />
+                <ImageView fresco:layout_width="-1" fresco:layout_height="83dp" fresco:layout_marginLeft="23dp" fresco:layout_marginTop="18dp" fresco:layout_marginRight="23dp" fresco:layout_marginBottom="27dp" fresco:src="0x7f03009c" fresco:scaleType="1" fresco:layout_below="0x7f0d0117" fresco:layout_centerHorizontal="true" />
+                <EditText fresco:textSize="18dp" fresco:textColor="#f1dcba" fresco:textColorHint="#5c5c5c" fresco:gravity="800033" fresco:id="0x7f0d0118" fresco:background="@sqlitedatabase/OPEN_READWRITE" fresco:layout_width="-1" fresco:layout_height="47dp" fresco:layout_marginTop="36dp" fresco:maxLength="250" fresco:layout_below="0x7f0d0117" fresco:layout_centerHorizontal="true" fresco:inputType="20001" fresco:imeOptions="6" fresco:textCursorDrawable="@sqlitedatabase/OPEN_READWRITE" fresco:layout_marginStart="25dp" fresco:layout_marginEnd="45dp" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="0x7f020110" android:layout_width="-1" android:layout_height="450dp">
+        <RelativeLayout android:layout_width="-1" android:layout_height="60dp">
+            <TextView android:textSize="15dp" android:textColor="#c3c6c8" android:gravity="11" android:id="0x7f0d03da" android:layout_width="-2" android:layout_height="38dp" android:text="0x7f07020b" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="0" android:background="#232729" android:layout_width="-1" android:layout_height="22dp" android:layout_below="0x7f0d03da"
+                <LinearLayout android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                    <TextView android:textSize="12dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d03d6" android:layout_width="-2" android:layout_height="-1" android:text="0x7f07020a" android:layout_weight="1.0" />
+                    <TextView android:textSize="12dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d03d7" android:layout_width="-2" android:layout_height="-1" android:text="0x7f070209" android:layout_weight="2.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                    <TextView android:textSize="12dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d03d8" android:layout_width="-2" android:layout_height="-1" android:text="0x7f07020a" android:layout_weight="1.0" />
+                    <TextView android:textSize="12dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d03d9" android:layout_width="-2" android:layout_height="-1" android:text="0x7f070209" android:layout_weight="2.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageButton android:id="0x7f0d03a7" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020098" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ListView android:id="0x7f0d01d0" android:paddingTop="16dp" android:scrollbars="0" android:layout_width="-1" android:layout_height="-1" android:listSelector="0x106000d" android:divider="0x106000d" android:dividerHeight="0dp" />
+    </LinearLayout>
+</RelativeLayout>
