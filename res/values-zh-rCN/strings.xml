@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">德友圈</string>
+    <string name="cp_picname">支付宝</string>
+    <string name="cp_cameraname">微信</string>
+    <string name="cp_cancel">取消</string>
+    <string name="cp_null" />
+    <string name="select">选择</string>
+    <string name="camera">相机</string>
+    <string name="album">相册</string>
+</resources>

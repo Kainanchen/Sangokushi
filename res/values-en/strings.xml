@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PokerFishs</string>
+    <string name="cp_picname">Alipay</string>
+    <string name="cp_cameraname">WeChat</string>
+    <string name="cp_cancel">cancel</string>
+    <string name="cp_null" />
+    <string name="select">Select</string>
+    <string name="camera">Camera</string>
+    <string name="album">Album</string>
+</resources>
