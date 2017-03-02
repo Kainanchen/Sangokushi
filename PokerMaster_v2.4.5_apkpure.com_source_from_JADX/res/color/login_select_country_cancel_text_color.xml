@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector>
-    <item android:state_pressed="true" android:color="#b68c4a" />
-    <item android:color="#d9af6d" />
-</selector>

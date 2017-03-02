@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="0">
-    <gradient android:startColor="#333333" android:endColor="#333333" android:angle="-90.0" />
-</shape>

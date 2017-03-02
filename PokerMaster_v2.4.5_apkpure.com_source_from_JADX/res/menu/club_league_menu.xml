@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu>
-    <group app:id="0x7f0d0406">
-        <item app:id="0x7f0d0407" app:orderInCategory="100" app:title="0x7f070099" app:showAsAction="0" />
-        <item app:id="0x7f0d0408" app:orderInCategory="100" app:title="0x7f0700b3" app:showAsAction="0" />
-    </group>
-</menu>

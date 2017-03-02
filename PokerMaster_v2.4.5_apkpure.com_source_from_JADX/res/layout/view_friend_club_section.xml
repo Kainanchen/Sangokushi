@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-1" android:layout_height="-2"
-    <RelativeLayout android:layout_width="-1" android:layout_height="50dp">
-        <ImageButton android:id="0x7f0d0300" android:background="0x7f02009d" android:layout_width="-1" android:layout_height="-1" />
-        <TextView android:textSize="15dp" android:textColor="#a2a2a2" android:id="0x7f0d02e3" android:layout_width="-2" android:layout_height="-2" android:text="0x7f07015b" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true" />
-        <ImageView android:id="0x7f0d0301" android:layout_width="-2" android:layout_height="-2" android:src="0x7f0300cd" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
-        <View android:background="0x7f0b001a" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-</RelativeLayout>

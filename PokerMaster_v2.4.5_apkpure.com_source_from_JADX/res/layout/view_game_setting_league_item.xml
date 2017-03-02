@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-1" android:layout_height="-2">
-    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
-        <CheckBox android:id="0x7f0d0339" android:layout_width="40dp" android:layout_height="40dp" android:checked="false" android:button="0x7f0200bc" />
-        <TextView android:textSize="17dp" android:textColor="#5c7884" android:ellipsize="3" android:id="0x7f0d0131" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
-    </LinearLayout>
-</RelativeLayout>

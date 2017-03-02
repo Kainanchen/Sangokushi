@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-2" android:layout_height="-2">
-    <ImageView android:id="0x7f0d0266" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020056" />
-</RelativeLayout>

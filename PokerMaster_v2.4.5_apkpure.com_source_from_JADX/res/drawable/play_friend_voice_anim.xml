@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animation-list android:oneshot="false">
-    <item android:duration="500" android:drawable="0x7f030211" />
-    <item android:duration="500" android:drawable="0x7f03020e" />
-    <item android:duration="500" android:drawable="0x7f030210" />
-    <item android:duration="500" android:drawable="0x7f03020f" />
-</animation-list>

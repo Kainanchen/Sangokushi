@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector>
-    <item android:state_pressed="false" android:drawable="0x7f0b003e" />
-    <item android:state_focused="true" android:drawable="0x7f0b0042" />
-    <item android:state_pressed="true" android:drawable="0x7f0b0042" />
-    <item android:state_selected="true" android:drawable="0x7f0b0042" />
-</selector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector>
-    <item android:state_enabled="true" android:state_selected="true" android:drawable="0x7f0300a0" />
-    <item android:state_enabled="true" android:drawable="0x7f03009f" />
-    <item android:state_enabled="false" android:drawable="0x7f0300a0" />
-</selector>

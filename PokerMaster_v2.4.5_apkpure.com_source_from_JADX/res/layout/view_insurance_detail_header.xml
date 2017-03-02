@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-1" android:layout_height="-2"
-    <RelativeLayout android:background="#282828" android:layout_width="-1" android:layout_height="25dp">
-        <TextView android:textSize="14dp" android:textColor="#4f4d4d" android:id="0x7f0d0349" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</RelativeLayout>

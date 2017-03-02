@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-1" android:layout_height="-2"
-    <RelativeLayout android:id="0x7f0d03ae" android:layout_width="-1" android:layout_height="66dp">
-        <ImageView android:id="0x7f0d03af" android:layout_width="-2" android:layout_height="-2" android:src="0x7f050012" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

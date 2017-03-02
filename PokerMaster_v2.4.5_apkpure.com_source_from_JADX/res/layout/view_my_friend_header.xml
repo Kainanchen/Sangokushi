@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="-1" android:layout_height="-2"
-    <RelativeLayout android:id="0x7f0d036e" android:layout_width="-1" android:layout_height="62dp">
-        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:src="0x7f0300d6" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <TextView android:textSize="18dp" android:textColor="#58d68d" android:id="0x7f0d036f" android:layout_width="-2" android:layout_height="-2" android:layout_margin="66dp" android:text="0x7f070174" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <ImageView android:id="0x7f0d021b" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:src="0x7f0300a1" android:layout_centerVertical="true" android:layout_marginEnd="28dp" android:layout_alignParentEnd="true" />
-        <TextView android:textSize="14dp" android:textColor="0x106000b" android:gravity="11" android:id="0x7f0d021c" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_alignTop="0x7f0d021b" android:layout_alignBottom="0x7f0d021b" android:layout_alignStart="0x7f0d021b" android:layout_alignEnd="0x7f0d021b" />
-    </RelativeLayout>
-</RelativeLayout>
